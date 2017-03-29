@@ -1,0 +1,53 @@
+div {
+  border: 1px solid blue;
+}
+
+section {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0;
+}
+
+/*Header Section*/
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+/*Header Logo (Left)*/
+
+.header-logo-container {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.header-logo {
+  margin-right: 12px;
+}
+
+.logo-text {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+/*Header Nav (Right)*/
+
+.header-nav span {
+  padding-right: 40px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header-nav span a {
+  color: black;
+}
